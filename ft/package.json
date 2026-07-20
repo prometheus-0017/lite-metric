@@ -1,0 +1,24 @@
+{
+  "name": "metrics-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@xuri-rpc/websocket-sender": "link:C:/Users/lzy/Desktop/xuri-rpc/packages/websocket-sender",
+    "axios": "^1.6.0",
+    "echarts": "^5.4.3",
+    "vue": "^3.4.0",
+    "xuri-rpc": "link:C:/Users/lzy/Desktop/xuri-rpc"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^6.0.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^3.3.6"
+  }
+}
